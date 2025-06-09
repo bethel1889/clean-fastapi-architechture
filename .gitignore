@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Poetry
+poetry.lock
+# Uncomment the line below if you're not committing lockfiles
+# poetry.lock
+
+# Virtual environments (Poetry manages this separately, but just in case)
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# SQLAlchemy / DB
+*.sqlite3
+*.db
+alembic.ini
+migrations/
+
+# Testing and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+test-results/
+
+# MyPy / Pyright / other type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Logs
+*.log
+
+# Docker artifacts
+docker-compose.override.yml
+__pypackages__/
+*.pid
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# FastAPI static assets (if any)
+staticfiles/
+frontend/dist/
+frontend/node_modules/
